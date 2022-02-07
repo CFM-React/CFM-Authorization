@@ -1,0 +1,54 @@
+{
+"MsalAuthorization":{
+  "StatusInfo": {
+    "RequestId": "0HMF27FQNSMKC:00000002",
+    "Status": "Success",
+    "ClientId": null,
+    "MessageCode": "Success",
+    "Timestamp": "2022-01-28T13:21:54.041713Z",
+    "ReturnValue": 0
+  },
+  "Response": [
+    {
+      "UserId": "24912ccf-83bc-49b0-8600-11896d037f50",
+      "ClientId": "0c8dc9cc-e96b-4d49-8c1b-626d9683f1bc",
+      "ClientName": "Finance",
+      "LoginType": "Okta",
+      "DisplayIconPath": "microsoft-login-btn.png",
+      "DisplayText": "Login with Invoice Processing",
+      "ButtonBGColor": "Blue",
+      "ButtonTextColor": "Blue",
+      "AppClientId": "8d8e6b73-5144-4db5-8135-960e2023e21e",
+      "Authority": "https://login.microsoftonline.com/f3211d0e-125b-42c3-86db-322b19a65a22/",
+      "ValidateAuthority": "true",
+      "RedirectUri": "http://localhost:3000",
+      "ResponseType": "code",
+      "ResponseMode": "query",
+      "State": "12345",
+      "Scope":  ["User.Read"],
+      "TokenAuthConfiguation": "https://login.microsoftonline.com/f3211d0e-125b-42c3-86db-322b19a65a22/oauth2/token",
+      "TenantKey": "1T5qPxDAhH2dHaYw7nlEhF5JTQSgfgvKtqoDgWbWTViWuBKzibX7iw20ZcsDQWFy4Pm+L/ypFkl2APChYS6sp/+7GRrdrvR6f2jBKT3447Vdwvz6r1M5svHbjPgCfD2RyGzGjXhAWcpWKzLZN/hNCw==",
+      "Clientlogo": "idvs_logo.png",
+      "ClientLogoColour": "rgb(117, 0, 192) !important",
+      "HeaderTextColor": "rgb(145, 158, 171)",
+      "HeaderBgColor": "rgb(255,255,255)",
+      "ActiveTextColor": "rgb(117, 0, 192)",
+      "HeaderTextColorSm": "rgb(145, 158, 171)",
+      "ActiveTextColorSm": "rgb(117, 0, 192)",
+      "headerHeadingColor": "rgb(33, 43, 54)",
+      "syncLogo": "SynOps_Header_Icon.png",
+      "headerIconStyle": null,
+      "footerColor": "rgb(117, 0, 192)",
+      "PoweredBy": "IDVS",
+      "UserName": null,
+      "OpenTickets": 0,
+      "UrgentTickets": 0,
+      "LastUpdatedDate": "0001-01-01T00:00:00",
+      "LastUpdatedBy": null,
+      "EstimatedCloseDate": "0001-01-01T00:00:00",
+      "Url": null,
+      "FooterText": null
+    }
+  ]
+}
+}
